@@ -8,7 +8,7 @@ Built for the OpenCV AI Competition 2026, powered by AWS.
 
 1. The webcam feed is processed with MediaPipe's pose detection to track body landmarks.
 2. The system calculates the angle of the person's torso in real time.
-3. If the torso angle exceeds **45°** for more than **1.5 seconds**, a fall is confirmed.
+3. If the torso angle exceeds **45°** for more than **3 seconds**, a fall is confirmed.
 4. An automatic **email alert** is sent via AWS SNS to notify a caregiver or family member.
 
 ## Tech stack
