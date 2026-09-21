@@ -44,7 +44,7 @@ mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 
 ANGLE_THRESHOLD = 45
-FALL_HOLD_SECONDS = 1.5
+FALL_HOLD_SECONDS = 3
 
 
 def calculate_torso_angle(landmarks, w, h):
